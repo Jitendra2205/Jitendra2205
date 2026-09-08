@@ -1,30 +1,29 @@
-### Hi, I'm Jitendra 👋
+# Jitendra Singh
 
-**Product Manager — AI Agents, GenAI Products & 0→1 SaaS**
+**AI Product Manager. I build the first version myself.**
 
-8 years across AI product and large-scale program delivery. I build production AI agents on RAG, MCP and LangGraph, ship AI features into live enterprise platforms, and take GenAI products from concept to MVP myself before handing off to engineering.
-
-- 🔭 Currently: shipping production AI agents — RAG/MCP/LangGraph inventory intelligence, enterprise AI search, and n8n-based sales automation
-- 🧠 Core stack: LLMs, AI agents, RAG, MCP, LangGraph, prompt engineering, open-weight fine-tuning, computer vision, recommendation systems
-- 📈 Track record: shipped 5+ AI features into a live SaaS platform, took a GenAI video product from 0→MVP in 75 days (now live with 5,000+ brands, 4.9 on G2), and owned a 3-product portfolio at $1.2M+ ARR across 30K+ users
-- ⚙️ Tools I build with: n8n, Replit, Windsurf, Playwright, AWS SageMaker, Google Cloud, Azure
-- 💬 Ask me about: build-vs-buy on AI infra, open-weight vs. hosted models, turning ambiguous problems into shippable specs
-- 📫 Reach me: [LinkedIn](https://linkedin.com/in/jitendra-singh-7b311b123) · jitendrashekhawat00@gmail.com
+Eight years across AI product and large-scale delivery. I prototype against real models before writing a spec, then hand engineering something that already works — not a blank page.
 
 ---
 
-#### 🛠 A few things I've built
+**What I've shipped**
 
-**MyBuddy** — Personal AI knowledge assistant built on the Onyx open-source stack, extended with a Google Drive connector, on-demand AI agents from my own documents, and Ollama integration to run against local LLMs instead of hosted APIs.
+- **[Tagshop.ai](https://www.tagshop.ai)** — a GenAI video platform I took from concept to live MVP in 75 days at Taggbox, building the base myself against LLM and media-generation APIs. Live today with 5,000+ brands and 4.9 on G2.
+- Five AI features into a live enterprise SaaS platform — recommendation, duplicate detection, review analysis, catalog-aware product tagging. Cut manual moderation effort 60% while raising accuracy 45%.
+- Production AI agents on RAG, MCP and LangGraph over live enterprise data, and an enterprise search platform with ServiceNow, Zoho, Google Workspace and SharePoint connectors.
 
-**Local-First Notetaker** — AI notetaker running fully on-device or via hosted APIs, built for privacy-sensitive contexts where cloud processing isn't viable.
+**Here**
 
-**[Email Verifier](https://github.com/Jitendra2205/Email-verifier)** — Bulk deliverability checker using layered confidence scoring (syntax, MX, disposable-domain, role-account detection) instead of a false binary valid/invalid signal.
+- **[clearline](https://github.com/Jitendra2205/clearline)** — an RFx-to-award procurement system. Five vendors reply in five formats (including an angled phone photo of a rate card); one traceable comparison comes out. Built around one rule: never silently resolve ambiguity. The LLM never does arithmetic — the application computes, the model narrates.
+- **[Email-verifier](https://github.com/Jitendra2205/Email-verifier)** — bulk deliverability checking at 250K scale, using layered confidence scoring rather than a binary verdict it couldn't honestly support.
+
+**How I think about AI products**
+
+The interesting question is rarely what the model can do. It's what the product shows the user when it isn't sure. Confidence scoring, provenance and human review beat a clean interface that quietly guesses — especially when someone is signing off on the output.
+
+The other half is cost. Latency, inference spend and output quality are the real trade-off triangle, and I've run programmes with $10M budgets, so I weigh user value against what a feature costs to run at scale rather than whether it demos well.
 
 ---
 
-#### Where I've worked
-
-`Aelum Consulting` → `KoiReader Technologies` → `Taggbox` → `Hubilo` → `Expertright`
-
-MBA (IT & Service Management, NMIMS) · B.Tech Computer Science · CSPO · PMI-ACP · PRINCE2
+📍 Jaipur, India · open to AI product roles, remote or onsite
+[LinkedIn](https://www.linkedin.com/in/jitendra-singh-7b311b123) · jitendrashekhawat00@gmail.com
